@@ -1,0 +1,28 @@
+.header-container {
+    width: 100%;
+    height: 9vh;
+    display: flex;
+    background-color: rgb(251 251 251);
+    position: relative;
+    justify-content: end;
+    border: 1px solid lightgray;
+    
+}
+
+
+.account_icon svg{
+    width: 53px;
+    height: 42px;
+    right: 24px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.brand_name {
+    position: absolute;
+    top: 21px;
+    left: 32px;
+    font-size: larger;
+    color: magenta;
+    font-weight: 800;
+}

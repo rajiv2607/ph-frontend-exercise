@@ -1,0 +1,28 @@
+
+.drpdwn-constainer {
+    width: 12%;
+    position: absolute;
+    top: 38px;
+    display: block;
+    opacity: 1;
+    z-index: 11;
+    list-style: none;
+    background: #fdfeff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    right: 0px;
+    box-shadow: 1px 1px 9px;
+    right: 3px;
+    cursor: pointer;
+}
+
+.list {
+    padding: 14px;
+    font-size: initial;
+    font-weight: 300;
+    position: relative;
+    right: 25px;
+    width: 100%;
+}
