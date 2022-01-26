@@ -1,6 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
-import { DashboardContainer } from './containers/DashboardContainer';
+import  DashboardContainer  from './containers/dashboard/DashboardContainer';
 
 function App() {
   return (

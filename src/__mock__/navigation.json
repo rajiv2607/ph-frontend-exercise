@@ -1,0 +1,542 @@
+[
+  {
+    "title": "Reporting",
+    "url": null,
+    "id": "menu-reporting",
+    "icon": "reporting",
+    "hasAlert": false,
+    "children": [
+      {
+        "title": "Sales Dashboard",
+        "url": "/v/sales_dashboard/index",
+        "id": "menu-sales-dashboard",
+        "icon": null,
+        "hasAlert": false,
+        "children": []
+      },
+      {
+        "title": "Forecast",
+        "url": "/v/forecast/index/",
+        "id": "menu-forecast",
+        "icon": null,
+        "hasAlert": false,
+        "children": []
+      },
+      {
+        "title": "Consumer Insights",
+        "url": "/d/tools/report/dashboard#consumerinsights",
+        "id": "menu-consumer-insights",
+        "icon": null,
+        "hasAlert": false,
+        "children": []
+      },
+      {
+        "title": "Supplier Registration Compliance",
+        "url": "/v/tools/supplier_registration_compliance/index",
+        "id": "menu-supplier-registration-compliance",
+        "icon": null,
+        "hasAlert": false,
+        "children": []
+      },
+      {
+        "title": "Fulfillment Performance Diagnostics",
+        "url": "/v/supplier_dashboard/supplier_fulfillment/index",
+        "id": "menu-fulfillment-performance-diagnostics",
+        "icon": null,
+        "hasAlert": false,
+        "children": []
+      },
+      {
+        "title": "Lead Time Performance",
+        "url": "/v/lead_time_performance/index",
+        "id": "menu-leadtime-performance",
+        "icon": null,
+        "hasAlert": false,
+        "children": []
+      },
+      {
+        "title": "Customer Incidents Dashboard",
+        "url": "/v/customer-incidents-dashboard/index",
+        "id": "menu-customer-incidents-dashboard",
+        "icon": null,
+        "hasAlert": false,
+        "children": []
+      }
+    ]
+  },
+  {
+    "title": "Tickets",
+    "url": "/app/tickets",
+    "id": "menu-ticket",
+    "icon": "tickets",
+    "hasAlert": false,
+    "children": []
+  },
+  {
+    "title": "Orders",
+    "url": null,
+    "id": "menu-orders-management",
+    "icon": "orders",
+    "hasAlert": false,
+    "children": [
+      {
+        "title": "",
+        "url": "/orders",
+        "id": "menu-orders-management-overview",
+        "icon": null,
+        "hasAlert": false,
+        "children": []
+      },
+      {
+        "title": "Order Management",
+        "url": "/orders",
+        "id": "menu-orders-management-item",
+        "icon": null,
+        "hasAlert": false,
+        "children": []
+      },
+      {
+        "title": "All Order Alerts",
+        "url": null,
+        "id": "menu-orders-all-order-alerts",
+        "icon": null,
+        "hasAlert": false,
+        "children": [
+          {
+            "title": "",
+            "url": "/v/order/order_management/index",
+            "id": "menu-orders-all-order-alerts-overview",
+            "icon": null,
+            "hasAlert": false,
+            "children": []
+          },
+          {
+            "title": "Overdue Orders",
+            "url": "/v/order/order_management/index#alerts/overdue_orders_alerts",
+            "id": "menu-orders-overdue-orders",
+            "icon": null,
+            "hasAlert": false,
+            "children": []
+          },
+          {
+            "title": "Late Registration",
+            "url": "/v/order/order_management/index#alerts/late_registration_alerts",
+            "id": "menu-orders-late-registration",
+            "icon": null,
+            "hasAlert": false,
+            "children": []
+          },
+          {
+            "title": "Pending Cancellations",
+            "url": "/v/order/order_management/index#alerts/pending_cancellation_alerts",
+            "id": "menu-orders-pending-cancellations",
+            "icon": null,
+            "hasAlert": false,
+            "children": []
+          },
+          {
+            "title": "Pending Ship Address Changes",
+            "url": "/v/order/order_management/index#alerts/ship_address_changes_alerts",
+            "id": "menu-orders-allalerts-pending-shipaddress-changes",
+            "icon": null,
+            "hasAlert": false,
+            "children": []
+          },
+          {
+            "title": "Pending Ship Speed Changes",
+            "url": "/v/order/order_management/index#alerts/ship_speed_changes_alerts",
+            "id": "menu-orders-pending-shipspeed-changes",
+            "icon": null,
+            "hasAlert": false,
+            "children": []
+          },
+          {
+            "title": "Unconfirmed Replacement Parts",
+            "url": "/v/order/order_management/index#alerts/unconfirmed_replacement_part_alerts",
+            "id": "menu-orders-allalerts-unconfirmed-replacement-parts",
+            "icon": null,
+            "hasAlert": false,
+            "children": []
+          },
+          {
+            "title": "Late Replacement Parts",
+            "url": "/v/order/order_management/index#alerts/late_replacement_part_alerts",
+            "id": "menu-orders-late-replacement-parts",
+            "icon": null,
+            "hasAlert": false,
+            "children": []
+          },
+          {
+            "title": "Pending RMAs",
+            "url": "/v/order/order_management/index#alerts/pending_rma_alerts",
+            "id": "menu-orders-pending-rm-as",
+            "icon": null,
+            "hasAlert": false,
+            "children": []
+          },
+          {
+            "title": "Failed Pickups",
+            "url": "/v/order/order_management/index#alerts/failed_pickup_alerts",
+            "id": "menu-orders-failed-pickups",
+            "icon": null,
+            "hasAlert": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "Order Exports",
+        "url": "/v/order/export/index",
+        "id": "menu-orders-exports",
+        "icon": null,
+        "hasAlert": false,
+        "children": []
+      },
+      {
+        "title": "Pickup Center",
+        "url": "/transportation/pickup_center/calendar",
+        "id": "menu-orders-pickup-center",
+        "icon": null,
+        "hasAlert": false,
+        "children": []
+      }
+    ]
+  },
+  {
+    "title": "CastleGate",
+    "url": null,
+    "id": "menu-wfs-management",
+    "icon": "castleGate",
+    "hasAlert": false,
+    "children": [
+      {
+        "title": "Get Started",
+        "url": "//castlegate",
+        "id": "menu-wfs-management-get-started",
+        "icon": null,
+        "hasAlert": false,
+        "children": []
+      }
+    ]
+  },
+  {
+    "title": "Inventory",
+    "url": null,
+    "id": "menu-inventory",
+    "icon": "inventory",
+    "hasAlert": false,
+    "children": [
+      {
+        "title": "",
+        "url": "/#",
+        "id": "menu-inventory-overview",
+        "icon": null,
+        "hasAlert": false,
+        "children": []
+      },
+      {
+        "title": "Inventory Integration Score",
+        "url": "/v/integration-score-dashboard/index",
+        "id": "menu-inventory-integration-score",
+        "icon": null,
+        "hasAlert": false,
+        "children": []
+      },
+      {
+        "title": "Inventory Alerts",
+        "url": "/v/inventory_management/inventory_alerts/index",
+        "id": "menu-inventory-alerts",
+        "icon": null,
+        "hasAlert": false,
+        "children": []
+      },
+      {
+        "title": "Inventory Management",
+        "url": "/v/inventory_management/inventory/management_app",
+        "id": "menu-inventory-management",
+        "icon": null,
+        "hasAlert": false,
+        "children": []
+      },
+      {
+        "title": "Product Discontinuation",
+        "url": "/product-discontinuation/app",
+        "id": "menu-inventory-product-discontinuation",
+        "icon": null,
+        "hasAlert": false,
+        "children": []
+      },
+      {
+        "title": "Current Inventory",
+        "url": "/v/inventory_management/inventory_stock_status/index",
+        "id": "menu-inventory-current-inventory",
+        "icon": null,
+        "hasAlert": false,
+        "children": []
+      }
+    ]
+  },
+  {
+    "title": "Products",
+    "url": null,
+    "id": "menu-pricing",
+    "icon": "products",
+    "hasAlert": true,
+    "children": [
+      {
+        "title": "",
+        "url": "/v/catalog/catalog_management/index",
+        "id": "menu-pricing-overview",
+        "icon": null,
+        "hasAlert": false,
+        "children": []
+      },
+      {
+        "title": "Product Management",
+        "url": "/v/catalog/catalog_management/index",
+        "id": "menu-pricing-product-management",
+        "icon": null,
+        "hasAlert": false,
+        "children": []
+      },
+      {
+        "title": "Pricing Hub",
+        "url": null,
+        "id": "menu-pricing-hub",
+        "icon": null,
+        "hasAlert": true,
+        "children": [
+          {
+            "title": "",
+            "url": "/v/supplier/pricing_hub/app/index",
+            "id": "menu-pricing-hub-overview",
+            "icon": null,
+            "hasAlert": false,
+            "children": []
+          },
+          {
+            "title": "Pricing Updates",
+            "url": "/v/supplier/pricing/app/index",
+            "id": "menu-pricing-hub-updates",
+            "icon": null,
+            "hasAlert": true,
+            "children": []
+          },
+          {
+            "title": "Pricing Request Management",
+            "url": "/v/supplier/pricing_request_management/batch_summary/index",
+            "id": "menu-pricing-hub-request-management",
+            "icon": null,
+            "hasAlert": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "Shipping Dimensions",
+        "url": "/v/catalog/shipping_dimension/shipping_dimension/search",
+        "id": "menu-pricing-shipping-dimensions",
+        "icon": null,
+        "hasAlert": false,
+        "children": []
+      },
+      {
+        "title": "Product Attribute Management",
+        "url": "/v/catalog/product_specification/management/index",
+        "id": "menu-pricing-product-attribute-management",
+        "icon": null,
+        "hasAlert": false,
+        "children": []
+      },
+      {
+        "title": "Tried & True",
+        "url": "/triedandtrue",
+        "id": "menu-pricing-tried-and-true",
+        "icon": null,
+        "hasAlert": false,
+        "children": []
+      },
+      {
+        "title": "Supplier-funded Reviews",
+        "url": "/fundedreviews",
+        "id": "menu-pricing-funded-reviews",
+        "icon": null,
+        "hasAlert": false,
+        "children": []
+      },
+      {
+        "title": "Product Compliance",
+        "url": "/v/catalog/product_certification/product_certification/index",
+        "id": "menu-pricing-product-compliance",
+        "icon": null,
+        "hasAlert": false,
+        "children": []
+      },
+      {
+        "title": "Shop Your Catalog",
+        "url": "/v/catalog/shop_your_catalog/index",
+        "id": "menu-shop-your-catalog",
+        "icon": null,
+        "hasAlert": false,
+        "children": []
+      },
+      {
+        "title": "Image & Media Management",
+        "url": "/v/product_media/media_management/load",
+        "id": "menu-pricing-media-management",
+        "icon": null,
+        "hasAlert": false,
+        "children": []
+      }
+    ]
+  },
+  {
+    "title": "Premium Shelf",
+    "url": null,
+    "id": "menu-events-premium-shelf",
+    "icon": "premiumShelf",
+    "hasAlert": false,
+    "children": [
+      {
+        "title": "Accelerant Hub",
+        "url": "/v/supplier/opportunity_hub/app/index",
+        "id": "menu-events-accelerant-hub",
+        "icon": null,
+        "hasAlert": false,
+        "children": []
+      },
+      {
+        "title": "Promotions Manager",
+        "url": "/v/promotions/supplier_promotions_manager/index",
+        "id": "menu-events-promotions-manager",
+        "icon": null,
+        "hasAlert": false,
+        "children": []
+      },
+      {
+        "title": "Events",
+        "url": null,
+        "id": "menu-events",
+        "icon": null,
+        "hasAlert": false,
+        "children": [
+          {
+            "title": "Event Planning",
+            "url": "/v/event_planning/event/index",
+            "id": "menu-events-planning",
+            "icon": null,
+            "hasAlert": false,
+            "children": []
+          },
+          {
+            "title": "Event Preview",
+            "url": "/v/event_preview/preview/index",
+            "id": "menu-events-preview",
+            "icon": null,
+            "hasAlert": false,
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Account Management",
+    "url": null,
+    "id": "menu-account",
+    "icon": "wf-placeholder",
+    "hasAlert": true,
+    "children": [
+      {
+        "title": "Warehouse Management",
+        "url": null,
+        "id": "menu-account-warehouse-management",
+        "icon": null,
+        "hasAlert": false,
+        "children": [
+          {
+            "title": "",
+            "url": "/v/warehouse/warehouse_normal_hours/manage",
+            "id": "menu-account-warehouse-management-overview",
+            "icon": null,
+            "hasAlert": false,
+            "children": []
+          },
+          {
+            "title": "Warehouse Closures",
+            "url": "/v/warehouse/warehouse_quarter/manage",
+            "id": "menu-account-warehouse-closures",
+            "icon": null,
+            "hasAlert": false,
+            "children": []
+          },
+          {
+            "title": "Warehouse Hours",
+            "url": "/v/warehouse/warehouse_normal_hours/manage",
+            "id": "menu-account-warehouse-normal-hours",
+            "icon": null,
+            "hasAlert": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "Supplier Account Details",
+        "url": "/v/supplier/account_details/index",
+        "id": "menu-account-supplier-account-details",
+        "icon": null,
+        "hasAlert": true,
+        "children": []
+      },
+      {
+        "title": "Supplier Setup Details",
+        "url": "/v/supplier/setup/wizard/index",
+        "id": "menu-account-supplier-setup-details",
+        "icon": null,
+        "hasAlert": false,
+        "children": []
+      },
+      {
+        "title": "Certificate of Insurance Management & Control",
+        "url": "/coi_management.php",
+        "id": "menu-account-coi-management",
+        "icon": null,
+        "hasAlert": true,
+        "children": []
+      }
+    ]
+  },
+  {
+    "title": "Download Center",
+    "url": "/v/supplier/download_center/management/app",
+    "id": "download-center",
+    "icon": "downloadCenter",
+    "hasAlert": false,
+    "children": []
+  },
+  {
+    "title": "Help & Support",
+    "url": null,
+    "id": "help-and-support",
+    "icon": "helpAndSupport",
+    "hasAlert": false,
+    "children": [
+      {
+        "title": "Help Center",
+        "url": "/help/2",
+        "id": "help-center",
+        "icon": null,
+        "hasAlert": false,
+        "children": []
+      },
+      {
+        "title": "Contact Us",
+        "url": "/v/supplier/contact/wayfair_contact/index",
+        "id": "contact-us",
+        "icon": null,
+        "hasAlert": false,
+        "children": []
+      }
+    ]
+  }
+]

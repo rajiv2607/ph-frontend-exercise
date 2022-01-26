@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-const useFetch = (url, options) => {
+export const useFetch = (url, options) => {
   const [response, setResponse] = React.useState(null);
   const [error, setError] = React.useState(null);
 

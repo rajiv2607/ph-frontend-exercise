@@ -1,6 +1,5 @@
 .dashboard-container {
     display: flex;
     width: 100%;
-    background-color: aliceblue;
     height: 100vh;
 }

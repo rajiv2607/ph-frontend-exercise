@@ -1,0 +1,17 @@
+.rightpanel-container_active {
+    display: flex;
+    background-color: rgb(251 251 251);
+    border: 1px solid lightgray;
+    width: 100%;
+}
+
+.rightpanel-container {
+
+    width: 80%;
+}
+
+.body {
+    animation-duration: .2s;
+    animation-name: slideright;
+    transition: width .2s;
+}

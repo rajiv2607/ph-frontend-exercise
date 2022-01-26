@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { connect } from 'react-redux';
-import { Header } from '../components/header';
+import { Header } from '../../components/header';
 import './rightpanel-container.css';
 
 
@@ -13,7 +13,8 @@ const  RightPanelContainer = (props) => {
 
 
     return (
-         <div style= {{width: currentWidth }}className='rightpanel-container'>
+
+         <div className={`rightpanel-container${(currentWidth) ? '_active' : ''}`}>
             <Header/>
         </div>
     )

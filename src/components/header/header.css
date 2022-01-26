@@ -6,9 +6,11 @@
     position: relative;
     justify-content: end;
     border: 1px solid lightgray;
-    
 }
 
+.brand_title {
+    color: lightgrey;
+}
 
 .account_icon svg{
     width: 53px;
@@ -16,6 +18,7 @@
     right: 24px;
     position: absolute;
     cursor: pointer;
+    top: 10px;
 }
 
 .brand_name {
