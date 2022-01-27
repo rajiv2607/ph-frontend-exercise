@@ -50,6 +50,7 @@ describe ('test cases for left panel rendering with redux', () => {
         const { getByTestId } = renderWithRedux(<LeftPanelContainer
             activeTab={"Reporting"}
             currentState= {true}
+            isExpanded ={true}
             navigation={navigation} />);
         const leftNav = getByTestId(LEFT_MENU);
         const firstNav = within(leftNav).getByText(firstNavName);

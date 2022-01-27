@@ -15,8 +15,8 @@ import {useFetch} from '../../hooks/useFetch'
         <div className='dashboard-container'>
             {
                 response && <>
-                    <LeftPanelContainer navigation={response}/>
-                    <RightPanelContainer/>
+                    <LeftPanelContainer tabIndex={0} navigation={response}/>
+                    <RightPanelContainer tabIndex={1}/>
                 </>
             }
         </div>
