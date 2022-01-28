@@ -23,7 +23,7 @@ export const LeftPanelContainer = ({isExpanded, activeTab , navigation}) => {
         dispatch(actions.setCurrentActiveTab(null));
       } else {
         dispatch(actions.setExpanded(true));
-        dispatch(actions.setCurrentActiveTab(data));  
+        dispatch(actions.setCurrentActiveTab(data));
       }
 
       setprev(data);
@@ -38,18 +38,17 @@ export const LeftPanelContainer = ({isExpanded, activeTab , navigation}) => {
     },[isExpanded])
 
     function onFocus(e) {
-    
       console.log('f',e.target.innerText)
     }
 
     function enterKeyboard(event){
       if (currectFocused.current === event.target.innerText) {
-        dispatch(actions.setCurrentActiveTab(''));  
+        dispatch(actions.setCurrentActiveTab(''));
       } else {
         let keyword = event.target.innerText
         console.log(event.target.innerText)
         if(event.keyCode === 13 && event.target.innerText) {
-          dispatch(actions.setCurrentActiveTab(event.target.innerText));  
+          dispatch(actions.setCurrentActiveTab(event.target.innerText));
         }
         currectFocused.current = keyword
       }
@@ -65,14 +64,14 @@ export const LeftPanelContainer = ({isExpanded, activeTab , navigation}) => {
             handleDrawer={handleDrawer}
             currentState={isExpanded}
             />
-            <nav 
+            <nav
               style= {{ width: lavBarWidth}}
               className='leftnav'
               data-testid='leftnav'
               role="tablist"
               aria-label="List of Tabs"
             >
-              
+
                 <ul>
                    {
                       navigation && navigation.map((tabs, index) => {
@@ -117,7 +116,7 @@ export const LeftPanelContainer = ({isExpanded, activeTab , navigation}) => {
 
 LeftPanelContainer.propTypes = {
   activeTab : PropTypes.bool,
-  navigation : PropTypes.object,
+  navigation : PropTypes.array,
   isExpanded: PropTypes.bool
 }
 

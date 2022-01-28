@@ -3,7 +3,7 @@ import { connect, useDispatch } from 'react-redux'
 import { RiAccountCircleLine } from "react-icons/ri";
 import  './style.css'
 import * as actions from "../../action/actions"
-import store from '../../store/store';
+import PropTypes from "prop-types";
 
 export const CommonDropdownContext = ({showDropDown}) => {
   const dispatch = useDispatch();
@@ -49,6 +49,10 @@ export const CommonDropdownContext = ({showDropDown}) => {
             }
         </div>
     )
+}
+
+CommonDropdownContext.propTypes = {
+    showDropDown : PropTypes.bool,
 }
 
 const mapStateToProps = state => {

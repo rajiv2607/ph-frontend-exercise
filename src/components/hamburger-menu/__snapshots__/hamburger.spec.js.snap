@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snap shot test test1 1`] = `
+<svg
+  className="hamburger_icon"
+  data-testid="hamburger_icon"
+  fill="currentColor"
+  height="1em"
+  onClick={[Function]}
+  stroke="currentColor"
+  strokeWidth="0"
+  style={
+    Object {
+      "color": undefined,
+    }
+  }
+  viewBox="0 0 512 512"
+  width="1em"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M32 96v64h448V96H32zm0 128v64h448v-64H32zm0 128v64h448v-64H32z"
+  />
+</svg>
+`;
