@@ -9,11 +9,9 @@ import IconName from '../../utils/IconEnum'
 import  HamburgerMenu  from '../../components/hamburger-menu';
 
 export const LeftPanelContainer = ({isExpanded, activeTab , navigation}) => {
-    const [lavBarWidth , setLavBarWidth ] = useState();
-    // const prevTabName = usePrevious(activeTab);
+    const [NavBarWidth , setNavBarWidth ] = useState();
     const [prev , setprev ] = useState(null);
-    // const [currectFocused, setCurrentFocused ] = useState();
-    const currectFocused = useRef('');
+    const currentFocused = useRef('');
     let subMenuExpaned = false;
     const dispatch = useDispatch();
 
@@ -33,7 +31,7 @@ export const LeftPanelContainer = ({isExpanded, activeTab , navigation}) => {
     }
 
    useEffect(() => {
-        setLavBarWidth(((isExpanded) ? '20%' : '5%'))
+        setNavBarWidth(((isExpanded) ? '20%' : '5%'))
     },[isExpanded])
 
     function onFocus(e) {
@@ -41,7 +39,7 @@ export const LeftPanelContainer = ({isExpanded, activeTab , navigation}) => {
     }
 
     function enterKeyboard(event){
-      if (currectFocused.current === event.target.innerText) {
+      if (currentFocused.current === event.target.innerText) {
         dispatch(actions.setCurrentActiveTab(''));
       } else {
         let keyword = event.target.innerText
@@ -49,7 +47,7 @@ export const LeftPanelContainer = ({isExpanded, activeTab , navigation}) => {
         if(event.keyCode === 13 && event.target.innerText) {
           dispatch(actions.setCurrentActiveTab(event.target.innerText));
         }
-        currectFocused.current = keyword
+          currentFocused.current = keyword
       }
     }
 
@@ -64,7 +62,7 @@ export const LeftPanelContainer = ({isExpanded, activeTab , navigation}) => {
             currentState={isExpanded}
             />
             <nav
-              style= {{ width: lavBarWidth}}
+              style= {{ width: NavBarWidth}}
               className='leftnav'
               data-testid='leftnav'
               role="tablist"
