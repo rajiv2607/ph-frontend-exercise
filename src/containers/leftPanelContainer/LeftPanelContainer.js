@@ -2,7 +2,6 @@ import React, {useEffect, useRef, useState } from 'react'
 import './leftpanel-container.css';
 import {useDispatch} from 'react-redux'
 import PropTypes from "prop-types";
-import {usePrevious } from '../../hooks/usePrevious'
 import * as actions from "../../action/actions"
 import { BiChevronDown } from "react-icons/bi";
 import { connect } from 'react-redux';
