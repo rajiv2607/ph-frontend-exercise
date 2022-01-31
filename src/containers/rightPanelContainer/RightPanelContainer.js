@@ -26,12 +26,4 @@ const mapStateToProps = state => {
     };
   }
 
-//   const mapDispatchToProps = dispatch => {
-//     return {
-//       setDropDownState: (current) => {
-//         dispatch(actions.showAccDropDown(current));
-//       }
-//     };
-//   };
-
 export default connect(mapStateToProps, null)(RightPanelContainer)
