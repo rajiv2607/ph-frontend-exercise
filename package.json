@@ -1,0 +1,58 @@
+{
+  "name": "ph-frontend-exercise",
+  "version": "0.1.1",
+  "private": true,
+  "dependencies": {
+    "@babel/core": "^7.16.12",
+    "@babel/preset-env": "^7.16.11",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "babel-jest": "^26.6.3",
+    "jest-transform-stub": "^2.0.0",
+    "lodash": "^4.17.21",
+    "msw": "^0.36.5",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-icon": "^1.0.0",
+    "react-icons": "^4.3.1",
+    "react-redux": "^7.2.6",
+    "react-scripts": "4.0.1",
+    "react-test-renderer": "^17.0.2",
+    "redux": "^4.1.2",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-syntax-jsx": "^7.16.7",
+    "@babel/plugin-transform-modules-commonjs": "^7.16.8",
+    "@babel/plugin-transform-runtime": "^7.16.10",
+    "@babel/preset-react": "^7.16.7",
+    "jest": "^26.6.0",
+    "jest-css-modules-transform": "^4.3.0",
+    "jest-svg-transformer": "^1.0.0"
+  }
+}
